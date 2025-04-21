@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamentos PIX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamentos PIX</h1>
+        <button id="toggle-dark-mode">Modo Escuro</button> <!-- Botão para alternar o modo -->
+        <div class="button-group">
+            <button class="button active">Todos</button>
+            <button class="button">Pagos</button>
+            <button class="button">Aguardando</button>
+        </div>
+        <input type="text" class="filter-input" placeholder="Filtrar por nome da criança">
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Valor (R$)</th>
+                    <th>Pagador</th>
+                    <th>Descrição PIX</th>
+                    <th>Criança</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-03-18</td>
+                    <td>150.00</td>
+                    <td>João Silva</td>
+                    <td>Pagamento Lucas</td>
+                    <td>Lucas Silva</td>
+                    <td><span class="status-pago">Pago</span></td>
+                </tr>
+                <tr>
+                    <td>2025-03-18</td>
+                    <td>200.00</td>
+                    <td>Maria Oliveira</td>
+                    <td>Mensalidade Ana Souza</td>
+                    <td>Ana Souza</td>
+                    <td><span class="status-pago">Pago</span></td>
+                </tr>
+                <tr>
+                    <td>2025-03-19</td>
+                    <td>75.50</td>
+                    <td>Carlos Souza</td>
+                    <td>Lucas mensalidade</td>
+                    <td>Lucas Silva</td>
+                    <td><span class="status-aguardando">Aguardando</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
