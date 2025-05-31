@@ -42,7 +42,7 @@ Funcionalidades implementadas:
 
 ---
 
-## 🧪 Exemplo de Código HTML (trecho)
+## 🧪 Exemplo de Estrutura HTML (trecho)
 
 ```html
 <button id="toggle-dark-mode">Modo Escuro</button>
